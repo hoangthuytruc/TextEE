@@ -32,8 +32,8 @@ TRAINER_MAP = {
     ("BartGen", "EAE"): BartGenEAETrainer,
     ("Ampere", "EAE"): AmpereEAETrainer,
     ("AMRIE", "E2E"): AMRIEE2ETrainer,
-    ("LLM", "ED"): LLMEDTrainer,
-    ("LLM", "EAE"): LLMEAETrainer,
+    #("LLM", "ED"): LLMEDTrainer,
+    #("LLM", "EAE"): LLMEAETrainer,
 }
 
 def load_config(config_fn):
